@@ -706,7 +706,7 @@ AlertInfo
  
 🧠 **Thought process:** Despite the surgical log deletion and timestamp forging, Microsoft Defender's EDR independently flagged the activity twice, both classified under `DefenseEvasion` with the title "Suspicious timestamp modification" — mapping directly to MITRE's Indicator Removal and Timestomp techniques. This was the clearest evidence that automated detection succeeded where manual log review might have missed it.
  
-![Uploading 29.png…]()
+<img width="1044" height="121" alt="29" src="https://github.com/user-attachments/assets/7e9d3af2-fb18-4c80-b1b2-030f2872df91" />
 
 **Finding: `["Indicator Removal (T1070)","Timestomp (T1070.006)"]`**
  
